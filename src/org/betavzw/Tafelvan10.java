@@ -11,7 +11,6 @@ public class Tafelvan10 {
         String resultaat = String.format("%d %.4f %s",
                 getal, waarde, naam);
         System.out.println(resultaat);
-        System.out.printf("%d %.4f %s\n",
-                getal, waarde,naam);
+        System.out.printf("%d %.4f %s\n", getal, waarde,naam);
     }
 }
